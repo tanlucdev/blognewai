@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Xây Dựng Tập Dữ Liệu Đặc Tả Cơ Sở Dữ Liệu | Blog NewAi</title>
-<meta property="og:title" content="Xây Dựng Tập Dữ Liệu Đặc Tả Cơ Sở Dữ Liệu | Blog NewAi" />
-<meta name="twitter:title" content="Xây Dựng Tập Dữ Liệu Đặc Tả Cơ Sở Dữ Liệu | Blog NewAi" />
-<meta itemprop="name" content="Xây Dựng Tập Dữ Liệu Đặc Tả Cơ Sở Dữ Liệu | Blog NewAi" />
-<meta name="application-name" content="Xây Dựng Tập Dữ Liệu Đặc Tả Cơ Sở Dữ Liệu | Blog NewAi" />
+<title itemprop="name">APPLYING AI MODELS TO GENERATE SQL QUERIES BASED ON USER SPECIFICATIONS | Blog NewAi</title>
+<meta property="og:title" content="APPLYING AI MODELS TO GENERATE SQL QUERIES BASED ON USER SPECIFICATIONS | Blog NewAi" />
+<meta name="twitter:title" content="APPLYING AI MODELS TO GENERATE SQL QUERIES BASED ON USER SPECIFICATIONS | Blog NewAi" />
+<meta itemprop="name" content="APPLYING AI MODELS TO GENERATE SQL QUERIES BASED ON USER SPECIFICATIONS | Blog NewAi" />
+<meta name="application-name" content="APPLYING AI MODELS TO GENERATE SQL QUERIES BASED ON USER SPECIFICATIONS | Blog NewAi" />
 <meta property="og:site_name" content="Blog NewAi" />
 
 <meta name="description" content="Minimal Hugo blog theme with light and dark mode support">
@@ -46,14 +46,14 @@
     {
         "@context": "http://schema.org",
         "@type": "Article",
-        "headline": "Xây Dựng Tập Dữ Liệu Đặc Tả Cơ Sở Dữ Liệu",
+        "headline": "APPLYING AI MODELS TO GENERATE SQL QUERIES BASED ON USER SPECIFICATIONS",
         "author": {
         "@type": "Person",
         "name": ""
         },
         "datePublished": "2024-06-26",
         "description": "",
-        "wordCount":  10 ,
+        "wordCount":  588 ,
         "mainEntityOfPage": "True",
         "dateModified": "2024-06-26",
         "image": {
@@ -167,7 +167,7 @@ stroke-linejoin="round" class="feather feather-home">
     <main class="page-content" aria-label="Content">
         <article>
             <header class="header">
-                <h1 class="header-title">Xây Dựng Tập Dữ Liệu Đặc Tả Cơ Sở Dữ Liệu</h1>
+                <h1 class="header-title">APPLYING AI MODELS TO GENERATE SQL QUERIES BASED ON USER SPECIFICATIONS</h1>
                 
                 
                 <div class="post-meta">
@@ -179,14 +179,64 @@ stroke-linejoin="round" class="feather feather-home">
     
     <details class="toc" ZgotmplZ>
         <summary><b>Table of Contents</b></summary>
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#chapter-1-building-the-foundation-for-the-ezticket-system-database-specification">Chapter 1: Building the Foundation for the ezTicket System: Database Specification</a>
+      <ul>
+        <li><a href="#11-the-ezticket-data-model-a-visual-map">1.1 The ezTicket Data Model: A Visual Map</a></li>
+        <li><a href="#12-building-the-dbs-a-step-by-step-process">1.2 Building the DBS: A Step-by-Step Process</a></li>
+        <li><a href="#13-ai-and-the-dbs-a-powerful-combination">1.3 AI and the DBS: A Powerful Combination</a></li>
+        <li><a href="#14-the-ezticket-database-structure-a-birds-eye-view">1.4 The ezTicket Database Structure: A Bird&rsquo;s-Eye View</a></li>
+        <li><a href="#15-sql-queries-in-action-putting-the-dbs-to-the-test">1.5 SQL Queries in Action: Putting the DBS to the Test</a></li>
+      </ul>
+    </li>
+    <li><a href="#chapter-2-generating-realistic-data-for-the-ezticket-system">Chapter 2: Generating Realistic Data for the ezTicket System</a>
+      <ul>
+        <li><a href="#21-data-categorization-and-generation">2.1 Data Categorization and Generation:</a></li>
+        <li><a href="#22-python-libraries">2.2 Python Libraries:</a></li>
+        <li><a href="#23-results">2.3 Results:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </details>
             <div class="page-content">
-                <h1 id="chương-1">Chương 1</h1>
-<h1 id="chương-2">Chương 2</h1>
-<h1 id="chương-3">Chương 3</h1>
-<h1 id="chương-4">Chương 4</h1>
-<h1 id="chương-5">Chương 5</h1>
+                <h2 id="chapter-1-building-the-foundation-for-the-ezticket-system-database-specification">Chapter 1: Building the Foundation for the ezTicket System: Database Specification</h2>
+<p><em>The database specification (DBS)</em> is the backbone of the ezTicket online ticketing platform. Think of it as the blueprint that guides how data is organized and connected within the system. This chapter dives into the key components of this blueprint and how it plays a crucial role in the system&rsquo;s functionality.</p>
+<h3 id="11-the-ezticket-data-model-a-visual-map">1.1 The ezTicket Data Model: A Visual Map</h3>
+<p>The ezTicket data model, often represented using an <em>Entity-Relationship Diagram (ERD)</em>, provides a clear picture of the system&rsquo;s data structure. It outlines the various entities (e.g., events, users, tickets), their attributes (e.g., event name, user email), and the relationships between them (e.g., user purchases ticket). This visual representation helps developers understand and work with the data effectively.</p>
+<p><img alt="ERD of ezTicket" src="../../../assets/blog/ERD.png" title="ERD of ezTicket"></p>
+<h3 id="12-building-the-dbs-a-step-by-step-process">1.2 Building the DBS: A Step-by-Step Process</h3>
+<p>Creating a robust DBS involves a systematic process, from gathering and analyzing requirements to designing the data model, defining constraints, and thoroughly testing the specification. This process ensures that the DBS accurately reflects the system&rsquo;s needs and maintains data integrity.</p>
+<h3 id="13-ai-and-the-dbs-a-powerful-combination">1.3 AI and the DBS: A Powerful Combination</h3>
+<p>The DBS isn&rsquo;t just for developers. It can also be used to train AI models to automatically generate SQL queries, making data operations more efficient.</p>
+<h3 id="14-the-ezticket-database-structure-a-birds-eye-view">1.4 The ezTicket Database Structure: A Bird&rsquo;s-Eye View</h3>
+<p>The ezTicket database is designed to handle a wide range of data related to events, users, tickets, orders, and payments. Its structure, outlined in the DBS, ensures that the system can manage complex ticketing operations seamlessly.</p>
+<h3 id="15-sql-queries-in-action-putting-the-dbs-to-the-test">1.5 SQL Queries in Action: Putting the DBS to the Test</h3>
+<p>Illustrative SQL queries demonstrate how the DBS is applied in practice. These queries show how to retrieve, insert, update, and delete data within the ezTicket database, validating the specification&rsquo;s accuracy and effectiveness.</p>
+<p>By understanding the database specification, you gain valuable insights into the underlying structure that powers the ezTicket platform. This knowledge is essential for anyone involved in developing, maintaining, or using the system.</p>
+<h2 id="chapter-2-generating-realistic-data-for-the-ezticket-system">Chapter 2: Generating Realistic Data for the ezTicket System</h2>
+<p><strong>Overview:</strong> The goal of this chapter is to generate realistic data for each entity type within the ezTicket database. This data is crucial for testing and evaluating the performance of SQL optimization methods. The data needs to be sufficiently large (at least 100,000 rows per table) and diverse to reflect real-world scenarios.</p>
+<p><strong>Challenges and Solutions:</strong> Due to the lack of sufficient real-world data, the team utilized Python programming language and libraries like Faker, Pandas, Random, Datetime, and String to create a source code for automatic data generation.</p>
+<h3 id="21-data-categorization-and-generation">2.1 Data Categorization and Generation:</h3>
+<ul>
+<li><strong>Independent Data:</strong> Includes tables like User, Booking, Event, Ticket, and TicketType. This data can be generated randomly without requiring information from other tables.</li>
+<li><strong>Dependent Data:</strong> Includes tables like TransactionDetail, BookingDetail, Checkout, and Category. This data requires information from other tables to maintain consistency and connections between data points.</li>
+</ul>
+<h3 id="22-python-libraries">2.2 Python Libraries:</h3>
+<ul>
+<li><strong>Faker:</strong> Generates complex random data such as names, addresses, phone numbers, and emails.</li>
+<li><strong>Pandas:</strong> Handles and analyzes tabular data.</li>
+<li><strong>Random, Datetime, String:</strong> Built-in Python libraries for generating random data and handling strings and time.</li>
+</ul>
+<h3 id="23-results">2.3 Results:</h3>
+<ul>
+<li>Data is generated in Excel files.</li>
+<li>File format can be easily modified using the Pandas library.</li>
+<li>The number of data records can be adjusted through the dataNum file.</li>
+<li>The generated data will be invaluable for testing various scenarios and evaluating different SQL optimization methods.</li>
+</ul>
+<p>By leveraging Python and its powerful libraries, the team successfully generated realistic and diverse data for the ezTicket system, laying a solid foundation for assessing and optimizing the system&rsquo;s performance.</p>
 
             </div>
         </article></main>

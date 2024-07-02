@@ -19,13 +19,14 @@
     </item>
     
     <item>
-      <title>Xây Dựng Tập Dữ Liệu Đặc Tả Cơ Sở Dữ Liệu</title>
+      <title>APPLYING AI MODELS TO GENERATE SQL QUERIES BASED ON USER SPECIFICATIONS</title>
       <link>https://tanlucdev.github.io/blognewai/posts/blogsql/</link>
       <pubDate>Wed, 26 Jun 2024 15:02:04 +0700</pubDate>
       
       <guid>https://tanlucdev.github.io/blognewai/posts/blogsql/</guid>
       
-      <description>Chương 1 Chương 2 Chương 3 Chương 4 Chương 5 </description>
+      <description>Chapter 1: Building the Foundation for the ezTicket System: Database Specification The database specification (DBS) is the backbone of the ezTicket online ticketing platform. Think of it as the blueprint that guides how data is organized and connected within the system. This chapter dives into the key components of this blueprint and how it plays a crucial role in the system&amp;rsquo;s functionality.
+1.1 The ezTicket Data Model: A Visual Map The ezTicket data model, often represented using an Entity-Relationship Diagram (ERD), provides a clear picture of the system&amp;rsquo;s data structure.</description>
       
     </item>
     
